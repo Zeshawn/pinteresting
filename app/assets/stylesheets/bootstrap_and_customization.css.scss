@@ -1,7 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
+
+$font-family-sans-serif: 'Poiret One';
 $body-bg:     #bdc3c7;
 $btn-primary-bg: #e67e22;
 $navbar-default-link-color: #ecf0f1;
 $navbar-default-bg: #34495e;
+$btn-default-bg: #bdc3c7;
 
 @import 'bootstrap';
+
+
+.center{
+	text-align: center;
+}
+
+.jumbotron h1{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
